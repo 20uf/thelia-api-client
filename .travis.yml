@@ -10,7 +10,7 @@ before_script:
     - composer install --dev
     - sh -c "mysql -uroot -e 'SET FOREIGN_KEY_CHECKS = 0; DROP DATABASE IF EXISTS thelia;SET FOREIGN_KEY_CHECKS = 1;'; fi"
     - cd ..
-    - composer create-project thelia/thelia thelia 2.1.0-alpha2
+    - composer create-project thelia/thelia thelia 2.3.1
     - cd thelia
     - phpenv config-add travis.php.ini
     - php Thelia thelia:install --db_host=localhost --db_username=root --db_name=thelia

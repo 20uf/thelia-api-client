@@ -1,8 +1,12 @@
 {
     "name": "thelia/api-client",
-    "description": "Guzzle based client for Thelia API",
+    "description": "Guzzle based client 6 for Thelia API",
     "license": "GPL-3.0+",
     "authors": [
+        {
+            "name": "Michael COULLERET",
+            "email": "michael@coulleret.pro"
+        },
         {
             "name": "Benjamin Perche",
             "email": "bperche@openstudio.fr"
@@ -10,10 +14,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "guzzle/guzzle": "~3.9"
+        "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.3"
+        "phpunit/phpunit": "~4.8|~5.0"
     },
     "minimum-stability": "stable",
     "autoload": {
@@ -28,7 +32,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "2.0-dev"
         }
     }
 }
