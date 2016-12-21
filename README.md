@@ -1,6 +1,8 @@
 Thelia API client
 ===
 
+[![Build Status](https://travis-ci.org/20uf/thelia-api-client.svg?branch=2.0)](https://travis-ci.org/20uf/thelia-api-client)
+
 What is this ?
 ---
 This is a PHP client for [Thelia](https://github.com/thelia/thelia) API.
